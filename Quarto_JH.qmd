@@ -23,7 +23,8 @@ format: html
 5.  html 파일을 클릭할 시
 
 -   Open in Editer: R studio 내 소스 파일로 확인 가능
--   View in Web Browser: 브라우저 내 페이지로 확인 가능
+-   View in Web Browser: 브라우저 내 페이지로 확인 가능함
+
 
 
 
