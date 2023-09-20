@@ -1,50 +1,27 @@
-# History files
-.Rhistory
-.Rapp.history
+---
+title: "Quarto_JH"
+author: "jh"
+format: html
+---
 
-# Session Data files
-.RData
-.RDataTmp
+## Quarto 콰토
 
-# User-specific files
-.Ruserdata
+콰토 홈페이지 : <https://quarto.org>.
 
-# Example code in package build process
-*-Ex.R
+## 콰토 문서 만드는 법
 
-# Output files from R CMD build
-/*.tar.gz
+1.  콰토 홈페이지에 들어가 컴퓨터 운영체제에 맞는 파일 선택 설치
 
-# Output files from R CMD check
-/*.Rcheck/
+2.  R studio 오픈 후 File - New File - Quarto Document 클. [파일명 + 에디터 명] 작성 후 문서 생성 완료
 
-# RStudio files
-.Rproj.user/
-*.Rprojjjj
+-   Source -\> 코드 작업용 / Visual -\> 작업물 확인용
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+3.  문서 작성 후 상단의 저장 아이콘을 눌러 원하는 위치에 문서를 저장 (Ex. C: data)
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+4.  상단의 'Render' 아이콘을 눌러 렌더링이 진행되면 문서 저장 위치에 html 파일로 저장된 것을 확인할 수 있음
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+5.  html 파일을 클릭할 시
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
+-   Open in Editer: R studio 내 소스 파일로 확인 가능
+-   View in Web Browser: 브라우저 내 페이지로 확인 가능함
 
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
